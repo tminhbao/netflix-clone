@@ -1,4 +1,4 @@
-import Input from "@/components/input";
+import Input from "@/components/Input";
 import React, { useCallback, useState } from "react";
 
 type Props = {};
@@ -57,7 +57,6 @@ const auth = (props: Props) => {
             >
               {variant === "login" ? "Login" : "Sign up"}
             </button>
-
             {/* <div className="flex flex-row items-center gap-4 mt-8 justify-center">
               <div
                 onClick={() => signIn("google", { callbackUrl: "/profiles" })}
